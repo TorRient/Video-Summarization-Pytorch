@@ -30,7 +30,7 @@ python create_data.py --input dataset --output dataset/data.h5
 
 2. Make splits
 ```bash
-python create_split.py -d dataset/data.h5 --save-dir dataset --save-name summe_splits  --num-splits 5
+python create_split.py -d dataset/data.h5 --save-dir dataset --save-name splits  --num-splits 5
 ```
 
 ## How to train
