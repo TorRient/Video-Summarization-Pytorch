@@ -7,19 +7,23 @@ Implement with python=3.x https://github.com/KaiyangZhou/pytorch-vsumm-reinforce
 
 ## Requirement
 python=3.x
+
 Pytorch
+
 GPU
+
 tabulate
 
 ## Get started
 ```bash
 git clone https://github.com/TorRient/Video-Summarization-Pytorch
 cd Video-Summarization-Pytorch
-makedir dataset
+mkdir dataset
 ```
 
 1. Prepare dataset
-Put your videos in dir dataset
+
+Put your videos in folder dataset
 ```bash
 python create_data.py --input dataset --output dataset/data.h5
 ```
