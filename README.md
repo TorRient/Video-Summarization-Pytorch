@@ -1,4 +1,4 @@
-# Video-Summarization-Pytorch
+# Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward.
 Implement with python=3.x https://github.com/KaiyangZhou/pytorch-vsumm-reinforce
 
 <div align="center">
