@@ -90,7 +90,7 @@ class Generate_Dataset:
             video_capture = cv2.VideoCapture(video_path)
 
             fps = video_capture.get(cv2.CAP_PROP_FPS)
-            n_frames = int(video_capture.get(cv2.CAP_PROP_FRAME_COUNT))
+            n_frames = float(video_capture.get(cv2.CAP_PROP_FRAME_COUNT))
 
             frame_list = []
             picks = []
