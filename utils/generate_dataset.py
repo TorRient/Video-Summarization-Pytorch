@@ -82,6 +82,8 @@ class Generate_Dataset:
         print('[INFO] CNN processing')
         for video_idx, video_filename in enumerate(self.video_list):
             video_path = video_filename
+            if ".h5" in video_path:
+                continue
             if os.path.isdir(self.video_path):
                 video_path = os.path.join(self.video_path, video_filename)
 
